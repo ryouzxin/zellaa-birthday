@@ -1,0 +1,10 @@
+
+body{font-family:Arial;text-align:center;background:linear-gradient(#ffdce9,#fff);padding:30px;overflow:hidden}
+button{padding:12px 22px;border:none;border-radius:20px;cursor:pointer}
+.hidden{display:none}
+.photo{width:250px;border-radius:20px}
+.card{max-width:700px;margin:auto;background:white;padding:20px;border-radius:20px}
+.cats{font-size:70px;animation:bounce 2s infinite}
+@keyframes bounce{50%{transform:translateY(-15px)}}
+.petal{position:fixed;top:-20px;font-size:22px;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg)}}
